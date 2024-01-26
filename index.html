@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Academia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./images/book.png" alt="Book Logo">
+            <h2>Academia</h2>
+        </div>
+        <div class="sidebar">
+            <img src="images/close.png" alt="close" style="height: 30px; width: 30px;" onclick="hideSidebar()">
+            <a href="#" class="active">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <button class="btn">Join</button>
+            <button class="btn">Sign Up</button>
+        </div>
+        <div class="links">
+            <a href="#" class="active hideOnMobile">Home</a>
+            <a href="#" class="hideOnMobile">Courses</a>
+            <a href="#" class="hideOnMobile">About</a>
+            <a href="#" class="hideOnMobile">Blog</a>
+            <a href="#" class="hideOnMobile">Contact</a>
+            <button class="btn hideOnMobile">Join</button>
+            <button class="btn hideOnMobile">Sign Up</button>
+            <img class="menu-btn" src="images/menu.png" alt="menu" style="height: 35px; width: 35px;" onclick="showSidebar()">
+        </div>
+    </nav>
+    <div class="banner">
+        <div class="info">
+            <h3>Welcome to Academia!</h3>
+            <h1>Empowering Minds Through Dynamic Online Learning</h1>
+            <p>Unlock knowledge, skills, and success with Academia's e-learning platform.</p>
+            <button class="btn">Join For Free</button>
+        </div>
+        <div class="bgimg">
+            <img src="./images/bg2.png" alt="background image">
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="card">
+            <div>
+                <img src="images/1.png" alt="icon1">
+            </div>
+            <div>
+                <h3>40+ Online Courses</h3>
+                <p>Detailed tracking of completed modules and assessments.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img src="images/2.png" alt="icon2">
+            </div>
+            <div>
+                <h3>Expert Educators</h3>
+                <p>Detailed tracking of completed modules and assessments.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img src="images/3.png" alt="icon3">
+            </div>
+            <div>
+                <h3>Lifetime Access</h3>
+                <p>Detailed tracking of completed modules and assessments.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Courses Section -->
+
+    <div class="courses">
+        <h1>Our Top Courses</h1>
+        <div class="course-flex">
+            <div class="coursecard">
+                <div>
+                    <img src="images/i1.jpg" alt="image">
+                    <h4>Web Development</h4>
+                    <h2>React & Node.js Full Stack Development</h2>
+                    <p>Learn to build dynamic web apps using React and Node.js in this comprehensive full-stack
+                        development
+                        course.</p>
+                    <div class="price">
+                        <div class="rating">
+                            <img src="images/star.png" alt="star">
+                            <img src="images/star.png" alt="star">
+                            <img src="images/star.png" alt="star">
+                            <img src="images/star.png" alt="star">
+                            <img src="images/star.png" alt="star">
+                        </div>
+                        <div class="cost">
+                            <h3>$49</h3>
+                        </div>
+                    </div>
+                    <button class="btn">View Details</button>
+                </div>
+            </div>
+            <div class="coursecard">
+                <div>
+                    <img src="images/i2.jpg" alt="image">
+                    <h4>Web Development</h4>
+                    <h2>React & Node.js Full Stack Development</h2>
+                    <p>Learn to build dynamic web apps using React and Node.js in this comprehensive full-stack
+                        development
+                        course.</p>
+                    <div class="price">
+                        <div class="rating">
+                            <img src="images/star.png" alt="star">
+                            <img src="images/star.png" alt="star">
+                            <img src="images/star.png" alt="star">
+                            <img src="images/star.png" alt="star">
+                            <img src="images/star.png" alt="star">
+                        </div>
+                        <div class="cost">
+                            <h3>$49</h3>
+                        </div>
+                    </div>
+                    <button class="btn">View Details</button>
+                </div>
+            </div>
+            <div class="coursecard">
+                <div>
+                    <img src="images/i1.jpg" alt="image">
+                    <h4>Web Development</h4>
+                    <h2>React & Node.js Full Stack Development</h2>
+                    <p>Learn to build dynamic web apps using React and Node.js in this comprehensive full-stack
+                        development
+                        course.</p>
+                    <div class="price">
+                        <div class="rating">
+                            <img src="images/star.png" alt="star">
+                            <img src="images/star.png" alt="star">
+                            <img src="images/star.png" alt="star">
+                            <img src="images/star.png" alt="star">
+                            <img src="images/star.png" alt="star">
+                        </div>
+                        <div class="cost">
+                            <h3>$49</h3>
+                        </div>
+                    </div>
+                    <button class="btn">View Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="viewall">
+        <button class="btn">View All Courses</button>
+    </div>
+
+    <div class="learn">
+        <div>
+            <img src="images/learn2.png" alt="learn">
+        </div>
+        <div class="para">
+            <h1>Learner outcomes on courses you will take</h1>
+            <p><i id="icon" class="material-icons" style="color: #F28C28;">&#xe5ca;</i> Techniques to engage effectively
+                with vulnerable children and young people.</p>
+            <p><i id="icon" class="material-icons" style="color: #F28C28;">&#xe5ca;</i> Join millions of people from
+                around the world learning together.</p>
+            <p><i id="icon" class="material-icons" style="color: #F28C28;">&#xe5ca;</i> Join millions of people from
+                around the world learning together. Online learning is as easy and natural.</p>
+        </div>
+    </div>
+
+    <!-- Subjects Section -->
+
+    <div class="subjects">
+        <h1>Explore Top Subjects</h1>
+
+        <div class="subcard">
+            <div class="inner-subcard">
+                <img src="images/sub.jpg" alt="">
+                <p>PROGRAMMING</p>
+            </div>
+            <div class="inner-subcard">
+                <img src="images/sub.jpg" alt="">
+                <p>PROGRAMMING</p>
+            </div>
+            <div class="inner-subcard">
+                <img src="images/sub.jpg" alt="">
+                <p>PROGRAMMING</p>
+            </div>
+            <div class="inner-subcard">
+                <img src="images/sub.jpg" alt="">
+                <p>PROGRAMMING</p>
+            </div>
+            <div class="inner-subcard">
+                <img src="images/sub.jpg" alt="">
+                <p>PROGRAMMING</p>
+            </div>
+            <div class="inner-subcard">
+                <img src="images/sub.jpg" alt="">
+                <p>PROGRAMMING</p>
+            </div>
+            <div class="inner-subcard">
+                <img src="images/sub.jpg" alt="">
+                <p>PROGRAMMING</p>
+            </div>
+            <div class="inner-subcard">
+                <img src="images/sub.jpg" alt="">
+                <p>PROGRAMMING</p>
+            </div>
+        </div>
+    </div>
+    <div class="viewall">
+        <button class="btn">View All Subjects</button>
+    </div>
+
+    <div class="learn2">
+        <div class="para">
+            <h1>Learner outcomes on courses you will take</h1>
+            <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with
+                vulnerable children and young people.</p>
+            <p><i id="icon" class="material-icons" style="color: #F28C28;">&#xe5ca;</i> Techniques to engage effectively
+                with vulnerable children and young people.</p>
+            <p><i id="icon" class="material-icons" style="color: #F28C28;">&#xe5ca;</i> Join millions of people from
+                around the world learning together.</p>
+            <p><i id="icon" class="material-icons" style="color: #F28C28;">&#xe5ca;</i> Join millions of people from
+                around the world learning together. Online learning is as easy and natural.</p>
+        </div>
+        <div class="playbtn">
+            <img src="images/play.png" alt="learn">
+        </div>
+    </div>
+
+    <!-- Educator Section -->
+
+    <div class="educators-section">
+        <h1>Meet Our Educators</h1>
+        <div class="educator-container">
+            <div class="educator">
+                <img src="images/p1.jpg" alt="e1">
+                <p>Mr. Ethan Foster</p>
+            </div>
+            <div class="educator">
+                <img src="images/p2.jpg" alt="e2">
+                <p>Mr. Daniel Miller</p>
+            </div>
+            <div class="educator">
+                <img src="images/p3.jpg" alt="e3">
+                <p>Dr. Amelia Thompson</p>
+            </div>
+            <div class="educator">
+                <img src="images/p4.jpg" alt="e4">
+                <p>Mr. Alexander Taylor</p>
+            </div>
+        </div>
+        <div class="slide-in-photos">
+            <div class="extra-educator">
+                <img src="images/p5.jpg" alt="e5">
+                <p>Ms. Sophia Patel</p>
+            </div>
+            <div class="extra-educator">
+                <img src="images/p6.jpg" alt="e6">
+                <p>Mr. Jonathan White</p>
+            </div>
+            <div class="extra-educator">
+                <img src="images/p7.jpg" alt="e6">
+                <p>Miss Emily</p>
+            </div>
+            <div class="extra-educator">
+                <img src="images/p8.jpg" alt="e6">
+                <p>Mr. Lucas</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="learn">
+        <div>
+            <img src="images/learn2.png" alt="learn">
+        </div>
+        <div class="para">
+            <h1>Learner outcomes on courses you will take</h1>
+            <p><i id="icon" class="material-icons" style="color: #F28C28;">&#xe5ca;</i> Techniques to engage effectively
+                with vulnerable children and young people.</p>
+            <p><i id="icon" class="material-icons" style="color: #F28C28;">&#xe5ca;</i> Join millions of people from
+                around the world learning together.</p>
+            <p><i id="icon" class="material-icons" style="color: #F28C28;">&#xe5ca;</i> Join millions of people from
+                around the world learning together. Online learning is as easy and natural.</p>
+        </div>
+    </div>
+
+    <!-- Scroll To Top Button -->
+
+    <div id="scrollToTopBtn" onclick="scrollToTop()">
+        <img src="images/scroll.png" alt="Top">
+    </div>
+
+    <footer class="footer">
+        <div class="f1">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto aliquam unde, vitae voluptatibus eius
+                fuga illum, officia neque ullam reiciendis magnam amet nostrum adipisci repellendus eligendi corrupti,
+                optio saepe quaerat.</p>
+            <div class="icons">
+                <img src="images/fb.png" alt="fb">
+                <img src="images/in.png" alt="in">
+                <img src="images/yt.png" alt="yt">
+                <img src="images/em.png" alt="em">
+            </div>
+            <p>Copyright © 2024. All rights Reserved.</p>
+        </div>
+        <div class="f2">
+            <h3>Contact Us</h3>
+            <p><i id="icon" class="material-icons">&#xe0c8;</i>
+                123 Main Street, Cityville, Stateland, 12345, Country</p>
+            <p><i id="icon" class="material-icons">&#xe0b0;</i>+(12)34567890</p>
+        </div>
+        <div class="f3">
+            <p>Unlock the door to a world of knowledge through our online courses. For inquiries and enrollment details,
+                feel free to contact us—we're here to support your educational journey!</p>
+            <form>
+                <input type="email" id="emailInput" name="emailInput" placeholder="Your email address" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
